@@ -56,7 +56,6 @@ const Favorites = () => {
     fetchFavorites();
   }, []);
 
-  if (loading) return <div>Loading...</div>;
 
   return (
     <Container>

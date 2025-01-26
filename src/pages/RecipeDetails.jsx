@@ -78,7 +78,7 @@ const RecipeDetails = () => {
       console.error('Error updating favorite:', error);
     }
   };
-  if (loading) return <div>Loading...</div>;
+  
   if (error) return <div>{error}</div>;
   if (!recipe) return <div>Recipe not found</div>;
 
